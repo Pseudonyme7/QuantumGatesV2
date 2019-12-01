@@ -1,0 +1,18 @@
+User Github :
+Si vous souhaitez initialiser un depot git en local :
+	-git init
+vérifier le statut du dépot :
+	-git status
+ajouter les modifications faites en local sur la zone de transit :
+	-git commit -m "MESSAGE EXPLICITE DES MODICATIONS FAITES" <=== IMPORTANT
+envoyer le contenu depuis votre dépot en local vers le repository en ligne :
+	-git push origin master ( origin et master sont a modifier par leurs noms si vous les avez changés)
+récuperer le contenu du dépot lointain ( dépot github.com ) :
+	-git pull origin master
+si vous avez une erreur avec le "remote repository" :
+	-git remote add URL (URL de la cible pour nous https://github.com/Pseudonyme7/QuantumGateV2)
+
+A noter que si le push ne marche pas pour la premiere fois 
+utilisez la commande git push -f origin master uniquement la 
+première fois, les fois suivantes la commande donnée plus haut
+est suffisante. 
